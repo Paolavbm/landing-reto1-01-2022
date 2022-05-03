@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32 (1).png">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Reto 1 | Bookmark landing page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <div class="logo">
+                        <img id="brand" src="./images/logo-bookmark.svg" alt="">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+                    <div id="move">
+                        <ul class="navbar-nav" id="lista">
+                            <li class="nav-item ">
+                                <a class="nav-link" aria-current="page" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <a class="btn" id="boton" href="#" role="button">Login</a>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+
+        <div id="principal">
+            <h1>A Simple Bookmark Manager</h1>
+
+            <p>
+                A clean and simple interface to organize your favourite websites. Open a new
+                browser tab and see your sites load instantly. Try it for free.
+            </p>
+            <div class="union">
+                <a class="btn navegadores" href="#" role="button" id="chrome">Get it on Chrome</a>
+                <a class="btn navegadores" href="#" role="button" id="firefox">Get it on Firefox</a>
+            </div>
+        </div>
+
+        <div id="cont-img">
+            <div id="forma"> </div>
+            <img id="image" src="./images/illustration-hero.svg" alt="">
+
+
+        </div>
+
+    </div>
+
+    <div id="features" class="text-center w-100">
+        <div id="texto-f" class="mx-auto">
+            <h3>Features</h3>
+
+
+            <p>
+
+                Our aim is to make it quick and easy for you to access your favourite websites.
+                Your bookmarks sync between your devices so you can access them on the go.
+
+            </p>
+        </div>
+
+        <div class="w-100">
+            <nav id="tab-nav" class="mx-auto text-center">
+                <ul class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <li class="nav-item mx-3 my-0 tab-item" role="presentation">
+                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">Simple Bookmarking</button>
+                    </li>
+                    <li class="nav-item mx-3 my-0 tab-item" role="presentation">
+                        <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                            type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Speedy
+                            Searching</button>
+                    </li>
+                    <li class="nav-item mx-3  my-0 tab-item" role="presentation">
+                        <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                            type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Easy
+                            Sharing</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="ventana">
+
+                <div id="bookmark-img">
+                    <div class="forma1"> </div>
+                    <img id="book-img" src="./images/illustration-features-tab-1.svg" alt="">
+                </div>
+
+                <div id="bookmark-text">
+
+                    <h3>Bookmark in one click</h3>
+                    <p>
+                        Organize your bookmarks however you like. Our simple drag-and-drop interface
+                        gives you complete control over how you manage your favourite sites.
+                    </p>
+                    <a class="btn navegadores" href="#" role="button" id="chrome">More info</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+            <div class="ventana">
+
+                <div id="image-search">
+                    <div class="forma1"> </div>
+                    <img id="search-img" src="./images/illustration-features-tab-2.svg" alt="">
+                </div>
+
+                <div id="text-search">
+
+                    <h3>Intelligent search</h3>
+                    <p>
+                        Our powerful search feature will help you find saved sites in no time at all.
+                        No need to trawl through all of your bookmarks.
+                    </p>
+                    <a class="btn navegadores" href="#" role="button" id="chrome">More info</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <div class="ventana">
+
+                <div id="image-search">
+                    <div class="forma1"> </div>
+                    <img id="search-img" src="./images/illustration-features-tab-3.svg" alt="">
+                </div>
+
+                <div id="text-search">
+
+                    <h3>Share your bookmarks</h3>
+                    <p>
+                        Easily share your bookmarks and collections with others. Create a shareable
+                        link that you can send at the click of a button.
+                    </p>
+                    <a class="btn navegadores" href="#" role="button" id="chrome">More info</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="dowland" class="text-center w-100 ">
+        <div id="dowland2" class="mx-auto my-5">
+            <h3> Download the extension</h3>
+
+            <p>
+                We’ve got more browsers in the pipeline. Please do let us know if you’ve
+                got a favourite you’d like us to prioritize.
+            </p>
+        </div>
+
+
+        <div class="tarjetas">
+
+
+            <div class="card mx-3  tarjeta d-inline-block border-0" style="width: 15rem ;">
+                <div id="img1">
+                    <img src="images/logo-chrome.svg" class=" mx-auto px-auto" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Add to Chrome</h5>
+                    <p class="card-text"> Minimum version 62</p>
+                    <img src="./images/bg-dots (1).svg" class="w-75 h-50" alt="">
+                    <a class="btn navegadores" href="#" role="button" id="chrome">Add & Install
+                        Extension</a>
+                </div>
+            </div>
+
+
+
+
+            <div class="card tarjeta mx-3  d-inline-block border-0 " style="width: 15rem ;">
+                <div id="img1">
+                    <img src="images/logo-firefox.svg" class=" mx-auto px-auto" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Add to Firefox</h5>
+                    <p class="card-text"> Minimum version 55</p>
+                    <img src="./images/bg-dots (1).svg" class="w-75 h-50" alt="">
+                    <a class="btn navegadores" href="#" role="button" id="chrome">Add & Install
+                        Extension</a>
+                </div>
+            </div>
+
+
+
+
+            <div class="card mx-3  tarjeta d-inline-block text-center border-0" style="width: 15rem ;">
+
+                <div id="img1">
+                    <img src="images/opera.svg" class="mx-auto px-auto" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Add to Opera</h5>
+                    <p class="card-text">Minimum version 46</p>
+                    <img src="./images/bg-dots (1).svg" class="w-75 h-50" alt="">
+                    <a class="btn navegadores" href="#" role="button" id="chrome">Add & Install
+                        Extension</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div id="frequently" class="text-center mx-auto my-5">
+        <div id="info" class="mx-auto">
+            <h3 class="info">Frequently Asked Questions</h3>
+
+
+            <p class="info">
+                Here are some of our FAQs. If you have any other questions you’d like
+                answered please feel free to email us.
+
+            </p>
+        </div>
+
+        <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        What is Bookmark?
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                        tincidunt
+                        justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        How can I request a new browser?
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+                        massa, ultricies non ligula.
+                        Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+                        massa,
+                        ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis
+                        ultricies.
+                        Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Is there a mobile app?
+
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Sed consectetur quam id neque fermentum accumsan. Praesent
+                        luctus vestibulum dolor, ut condimentum
+                        urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus.
+                        Sed
+                        sollicitudin ex et ultricies bibendum.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        What about other Chromium browsers?
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body "> Integer condimentum ipsum id imperdiet finibus. Vivamus in
+                        placerat mi, at euismod dui. Aliquam
+                        vitae neque eget nisl gravida pellentesque non ut velit.</div>
+                </div>
+            </div>
+            <a class="btn navegadores my-5" href="#" role="button" id="chrome">More info</a>
+        </div>
+    </div>
+
+
+    <form id="formu">
+        <div class="w-100 form" id="formulario">
+
+            <div class="arreglate mx-auto w-25 text-center py-5">
+
+                <h6 class="mx-auto arreglate" id="yawey">35,000+ already joined</h6>
+
+                <h4 id="form">Stay up-to-date with what we’re doing</h4>
+
+                <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp"
+                    placeholder="Enter you email address">
+                <button type="submit" class="btn btn-primary" id="botonSub">Contact Us</button>
+            </div>
+        </div>
+
+    </form>
+
+    <a href="mailto:paola.val2311@gmail.com" id="enviar">Enviar</a>
+    <footer class="w-100 " id="footer">
+        <div class="w-100 form" id="footer_redes">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+
+                        <img id="brand2" class="" src="./images/logo-bookmark1.svg" alt="">
+                    </a>
+
+                    <div id="acomodar">
+                        <ul class="justify-content-center nav" id="redes-footer">
+                            <li class="nav-item">
+                                <a class="nav-link active mx-3" aria-current="page" href="#">FEATURES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-3" href="#">PRICING</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-3" href="#">CONTACT</a>
+                            </li>
+
+                            
+                        </ul>
+                    </div>
+                    <div id="logos-contac" class="w-25">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="margin-right: 3em;">
+                            <path fill="#FFF" fill-rule="evenodd"
+                                d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" />
+                            -->
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20">
+                            <path fill="#FFF" fill-rule="evenodd"
+                                d="M24 2.557a9.83 9.83 0 0 1-2.828.775A4.932 4.932 0 0 0 23.337.608a9.864 9.864 0 0 1-3.127 1.195A4.916 4.916 0 0 0 16.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 1.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 17.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 2.557z" />
+
+                        </svg>
+
+                    </div>
+
+                  
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                        <path fill="#8385A9" fill-rule="evenodd" d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/></svg>
+                </div>
+            </nav>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+    
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="./scripts/script.js"></script>
+
+
+</body>
+
+</html>

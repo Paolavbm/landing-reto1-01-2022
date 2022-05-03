@@ -1,0 +1,539 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik:ital,wght@0,500;1,400&family=Sarabun:ital,wght@1,500&display=swap');
+*{
+    font-family: 'Rubik', sans-serif;
+}
+header{
+    margin: 0 8% 0 8%;
+    font-family: 'Rubik', sans-serif;
+        
+}
+p{
+    font-size:smaller;
+    font-style: italic;
+    font-size: 400;
+    color: hsl(229, 8%, 60%);
+    
+}
+
+.main{
+    margin: 0 0 0 8%;
+    width: 92%;
+    display:block;
+    
+}
+
+#principal{
+   width: 30%;
+   display:inline-block;
+   margin-top: 7em;
+   font-size: 18px;
+   font-family: 'Rubik', sans-serif;
+    
+
+}
+#principal p{
+    margin-top: 1em;
+ 
+ }
+#image{
+   
+   position: absolute;
+    display: block;
+    right: 12%;
+}
+
+
+#move{
+   width: 100%;
+}
+
+#lista{
+    float: right;
+}
+
+#boton{
+    float: right;
+    color: white;
+    background-color:hsl(0, 94%, 66%);
+    font-style: italic;
+    font-weight: lighter;
+}
+#boton:hover{
+    background-color: white;
+    border: 2px solid hsl(0, 94%, 66%);
+    color: hsl(0, 94%, 66%) !important;
+    
+    
+}
+
+.nav-link{
+    color: black !important;
+    font-weight: 100;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.nav-link:hover{
+    color: red !important;
+    font-weight: 100;
+    cursor: pointer;
+}
+h1{
+    color: hsl(229, 31%, 21%)
+}
+
+.navegadores{
+   text-decoration: none;
+   font-style: italic;
+   font-weight: lighter;
+   font-size: small;
+   margin-right: 1%;
+   justify-content: center;
+   text-align: center;
+   margin-top: 2%;
+}
+
+#chrome{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    box-shadow: rgb(230, 228, 228) ;
+}
+
+#firefox{
+    background-color: rgb(245, 244, 244);
+    color: hsl(229, 8%, 60%);
+}
+#chrome:hover{
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+    border: solid  hsl(231, 69%, 60%);
+}
+#firefox:hover{
+    background-color: white;
+    color: hsl(229, 8%, 60%);
+    border: solid  hsl(229, 8%, 60%) ;
+ } 
+
+ #forma {
+        width: 40em; 
+        height: 25em; 
+        border-top-left-radius:   40%;
+        border-bottom-left-radius: 30%;
+        float: right;
+        margin-top: 50%;
+        margin-right: 0;
+        background: hsl(231, 69%, 60%);
+   }
+   #cont-img{
+       width: 15%;
+       float: right;
+      margin-top: 5%;
+     
+   }
+ 
+   h3{
+   color:  hsl(229, 31%, 21%);
+   }
+#texto-f{
+    display: block;
+    margin-top: 25%;
+    font-size: 18px;
+   font-family: 'Rubik', sans-serif;
+   width: 35%;
+}
+#tab-nav li{
+    margin: 3%;
+   
+}
+#tab-nav{
+    width: 45%;
+    font-family: 'Rubik', sans-serif;
+   
+}
+
+.nav-tabs #nav-home-tab, #nav-profile-tab, #nav-contact-tab{
+    border: none;
+    
+}
+#nav-tab .active{
+    border-bottom: solid 3px tomato;
+
+}
+
+.nav-tabs .nav-link{
+    height: 110px;
+    
+}
+
+.ventana{
+    margin: 0 0 0 0%;
+    width: 92%;
+    display:block;
+    
+}
+
+#bookmark-img{
+    width: 30%;
+    display:inline-block;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 3em;
+    
+}
+
+
+.forma1{
+    width: 35em; 
+    height: 20em; 
+    border-top-right-radius: 30%;
+    border-bottom-right-radius:  30%;
+    float: left;
+    background: hsl(231, 69%, 60%);
+    margin-top: 18%;
+}
+
+#book-img{
+    position: absolute;
+    left: 20%;
+   
+}
+
+#bookmark-text{
+display: inline-block;
+width: 30%;
+float: right;
+margin-top: 12%;
+font-size: 18px;
+}
+
+#image-search{
+    width: 30%;
+    display:inline-block;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 3em;
+    
+}
+
+#text-search{
+    display: inline-block;
+    width: 30%;
+    float: right;
+    margin-top: 12%;
+    font-size: 18px;
+}
+
+#search-img{
+    position: absolute;
+    left: 20%;
+}
+
+#dowland2{
+    display: inline-block;
+    width:34%;
+    margin-top: 12%;
+    font-size: 18px;
+}
+
+.tarjeta{
+    box-shadow: 1px 7px 5px  hsl(225, 4%, 80%)
+}
+
+#frequently{
+margin-top: 15%;
+font-size: 18px;
+font-family: 'Rubik', sans-serif;
+width: 32%;
+}
+
+
+.accordion-body{
+font-size: 12px ;
+width: 99%;
+color: hsl(240, 2%, 38%);
+text-align: left;
+font-style:italic;
+font-weight:500;
+font-size:smaller;
+}
+
+
+
+#formulario{
+    background-color: hsl(231, 69%, 60%);
+    height: 30%;
+}
+
+.arreglate{
+    color: white;
+    font-style:italic;
+    font-weight:500;
+    font-size:medium;
+
+}
+
+
+#form{
+    color: white;
+    margin-top: 3em;
+    margin-bottom: 2em;
+
+    
+}
+
+#email{
+display: inline-block;
+width: 15em;
+height: 3em;
+font-size: small;
+height: 3em;
+}
+
+#botonSub:hover{
+background-color: white;
+color: tomato;
+border: 3px solid tomato;
+
+}
+
+
+#botonSub{
+    display: inline-block;
+    background-color: hsl(0, 94%, 66%);
+    font-size: small;
+    height: 3em;
+    margin-left: 2%;
+}
+
+
+
+#footer_redes{
+    background-color: hsl(229, 31%, 21%);
+   
+}
+
+#acomodar{
+    position: absolute;
+    display: block;
+    left: 30%;
+    
+}
+
+
+#redes-footer .nav-item .nav-link {
+    color: white !important;
+    font-style:italic;
+    font-weight: lighter !important;
+    font-size: smaller;
+    
+}
+#redes-footer .nav-item .nav-link:hover{
+ color: tomato !important;
+    
+}
+
+#brand2{
+    margin-left: 7em;
+}
+
+#logos-contac{
+    display: block;
+    float: right;
+    margin-right: 10em;
+}
+#enviar{
+    display: none;
+}
+
+svg path:hover {
+    fill: #DA4567;
+  }
+  
+  
+  
+
+
+@media screen and (max-width: 720px) {
+   
+    @media screen and (max-width: 720px) {
+ 
+        #main{
+      
+        }
+        p{
+            font-size: 19px;
+        }
+        h1{
+            text-align: center;
+            width: 90%;
+            font-size: 25px !important;
+            
+        }
+       
+           #image{
+               
+               display: block;
+               position: absolute;
+               left: 1em;
+               width: 13em;
+             
+           }
+           #cont-img{
+               display: block;
+              flex-flow: column-reverse
+           }
+           #principal{
+               width: 90%;
+               display: block;
+               margin-top: 4em;
+               text-align: center;
+            }
+            #features{
+                display: block;
+                margin-top: 15em;
+                margin-left: 0 !important;
+                text-align: center;
+                width: 80%;
+       
+            }
+            
+            #forma {
+               width: 16em;
+               height: 9em;
+               margin-right: 5em;
+               border-top-left-radius: 40%;
+               border-bottom-left-radius: 30%;
+               
+               margin-top: 50%;
+               margin-right: 0;
+               background: hsl(231, 69%, 60%);
+          }
+       
+          
+       
+       .union{
+           display:block
+       }
+       
+       #chrome{
+           display: inline-block;
+           width: 45%;
+           font-size: 10px;
+       }
+       
+       #firefox{
+           display: inline-block;
+           width: 45%;
+           font-size: 10px;
+       }
+       
+       #texto-f{
+           display: block;
+          margin-left: 0em;
+           font-size: 18px;
+          font-family: 'Rubik', sans-serif;
+          width: 90%;
+       }
+       
+       .forma1{
+           width: 16em;
+           height: 10em;
+           border-top-right-radius: 30%;
+           border-bottom-right-radius: 30%;
+           float: left;
+           background: hsl(231, 69%, 60%);
+           margin-top: 1em;
+         
+       }
+       #book-img{
+       width: 12em;
+       position: absolute;
+       left: 5em;
+       }
+       } 
+       #search-img{
+        width: 12em;
+       position: absolute;
+       left: 5em;
+       }
+       #image-search{
+        width: 20px !important;
+        font-size: 18px;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 3em;
+        display: block;
+        flex-flow: column-reverse
+    
+       }
+
+       #text-search{
+           display: block;
+           
+       }
+
+       
+       #bookmark-img{
+        width: 20px !important;
+        font-size: 18px;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 3em;
+        display: block;
+        flex-flow: column-reverse
+        
+        
+    }
+
+    .nav-tabContent{
+        width: 100%;
+        font-size: small !important;
+    }
+
+    .ventana{
+        flex-flow: column-reverse;
+    }
+
+    #dowland2{
+        display: block !important;
+        width: 100%;
+        margin-top: 5em !important;
+        text-align: center;
+        
+    }
+    #bookmark-text{
+        display: block;
+        width: 100%;
+        margin-top: 5em;
+        text-align: center;
+        margin-bottom: 5em;
+    }
+
+    #text-search{
+        display: block;
+        width: 100%;
+        margin-top: 5em;
+        text-align: center;
+        margin-bottom: 5em;
+    }
+
+    #frequently{
+        display: block;
+        width: 100%;
+        margin-top: 5em;
+        text-align: center;
+        margin-bottom: 5em;
+    }
+
+    #formu{
+        display: block;
+        width: 100% !important;
+        text-align: center;
+
+    }
+    #arreglate{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+
+}
